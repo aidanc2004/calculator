@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+#buttons {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.calculator-button {
+    padding: 0.5rem;
+}
+
+#output {
+    padding-bottom: 1rem;
+}
