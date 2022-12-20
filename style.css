@@ -24,8 +24,8 @@ body {
 #buttons {
     display: grid;
     grid-gap: 1rem;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: 2.5rem 2.5rem 2.5rem;
+    grid-template-columns: 2.5rem 2.5rem 2.5rem 2.5rem;
 }
 
 .calculator-button {
@@ -33,5 +33,9 @@ body {
 }
 
 #output {
-    padding-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    width: 87%;
+    background-color: white;
 }
