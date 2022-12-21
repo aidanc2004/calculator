@@ -82,32 +82,32 @@ function clear() {
 
 // add all of the buttons to the calculator in order
 function addButtons() {
-    // 0-2
-    for (let i = 0; i <= 2; i++) {
+    // 1-3
+    for (let i = 1; i <= 3; i++) {
         addNumber(i);
     }
 
     // add plus button
     addOperator("+", add);
 
-    // 3-5
-    for (let i = 3; i <= 5; i++) {
+    // 4-6
+    for (let i = 4; i <= 6; i++) {
         addNumber(i);
     }
 
     // add minus button
     addOperator("-", minus)
 
-    // 6-8
-    for (let i = 6; i <= 8; i++) {
+    // 7-9
+    for (let i = 7; i <= 9; i++) {
         addNumber(i);
     }
 
     // add equals button
     addOperator("=", equals)
 
-    // 9
-    addNumber(9);
+    // 0
+    addNumber(0);
     
     // add clear button
     addOperator("clr", clear);
